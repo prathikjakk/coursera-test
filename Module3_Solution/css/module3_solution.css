@@ -1,0 +1,64 @@
+body {
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  /** HEADER **/
+  #header-nav {
+    background-color: #F3DEFF;
+    border-radius: 0;
+    border: 0;
+  }
+
+  .navbar-brand {
+    padding-top: 25px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    font-family: 'Garamond', serif;
+    color: black;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+  }
+
+  #navbarNav.collapse.navbar-collapse.show #nav-list {
+    display: block;
+  }
+
+  #nav-list {
+    margin-top: 10px;
+    background-color: white;
+  }
+  #nav-list a {
+    color: black;
+    text-align: center;
+  }
+  #nav-list a:hover {
+    background: #E7E7E7;
+  }
+  #nav-list a span {
+    font-size: 1.8em;
+  }
+
+  #Heading {
+    margin-top: 15px;
+    font-size: 1.5em;
+    font-weight: bolder;
+  }
+
+  #main-content{
+    margin: 20px auto;
+    background-color: #FEFBEA;
+  }
+
+  #main-content div div{
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
